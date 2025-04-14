@@ -12,6 +12,7 @@ public class CSButtonPress : MonoBehaviour
 {
 
     public GameObject GOButton;
+    public float distance;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()        
@@ -20,7 +21,14 @@ public class CSButtonPress : MonoBehaviour
     }
     public void PressButton()
     {
-        GOButton.transform.position= new Vector3(0,0,0);
+        
+        GOButton.transform.position = new Vector3( GOButton.transform.position.x - distance,GOButton.transform.position.y, GOButton.transform.position.z);
+    }
+
+    public void UnpressButton()
+    {
+        
+        GOButton.transform.position = new Vector3( GOButton.transform.position.x + distance,GOButton.transform.position.y, GOButton.transform.position.z);
     }
     // Update is called once per frame
     void Update()

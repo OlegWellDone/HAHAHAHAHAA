@@ -12,7 +12,7 @@ public class CSButtonPress : MonoBehaviour
 {
 
     public GameObject GOButton;
-    public float distance;
+    public float distance = 0.01f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()        

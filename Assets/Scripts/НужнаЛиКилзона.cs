@@ -21,7 +21,6 @@ public class НужнаЛиКилзона : MonoBehaviour
 
     public void CheckKill(){
         bool che = def.GetComponent<RotateLuk>().DefIsOn;
-        Debug.Log(che + " A NICHE");
         if(che == false){
             killzone.SetActive(true);
             oplki.Play();

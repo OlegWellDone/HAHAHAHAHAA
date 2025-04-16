@@ -482,7 +482,7 @@ GameObject:
   - component: {fileID: 73672079}
   - component: {fileID: 73672078}
   - component: {fileID: 73672084}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "\u0414\u043E\u0441\u043A\u0430"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -796,7 +796,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 167851602}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Attachment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -853,7 +853,7 @@ GameObject:
   - component: {fileID: 211512551}
   - component: {fileID: 211512550}
   - component: {fileID: 211512549}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "\u0414\u043E\u0441\u043A\u0430 (6)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1730,7 +1730,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 600165002}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Attachment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2074,7 +2074,7 @@ GameObject:
   - component: {fileID: 637346738}
   - component: {fileID: 637346737}
   - component: {fileID: 637346736}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "\u0414\u043E\u0441\u043A\u0430 (5)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2467,7 +2467,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 853503113}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Attachment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2498,7 +2498,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 854049635}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Attachment (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2529,7 +2529,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 858890917}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Attachment (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2608,7 +2608,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1046732004}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Attachment (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2639,7 +2639,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1051673837}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Attachment (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2874,7 +2874,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1167783174}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Attachment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2896,28 +2896,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1219712211}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &1189281453
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1760875724159475255}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1110419055828818645, guid: 4ebac86df120d914e9728c9fd5d352b0, type: 3}
 --- !u!82 &1189281457
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2931,7 +2909,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 6b1da6fd730321a4abf2a18df701d284, type: 3}
   m_Resource: {fileID: 8300000, guid: 6b1da6fd730321a4abf2a18df701d284, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.093
+  m_Volume: 0.051
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3030,7 +3008,7 @@ GameObject:
   - component: {fileID: 1219712207}
   - component: {fileID: 1219712206}
   - component: {fileID: 1219712212}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "\u0414\u043E\u0441\u043A\u0430 (3)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3552,7 +3530,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1266447162}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Attachment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3702,7 +3680,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1350478902}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Attachment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3739,7 +3717,7 @@ GameObject:
   - component: {fileID: 1372346763}
   - component: {fileID: 1372346762}
   - component: {fileID: 1372346768}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "\u0414\u043E\u0441\u043A\u0430 (4)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4011,7 +3989,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1383258582}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Attachment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4783,7 +4761,7 @@ GameObject:
   - component: {fileID: 1499235728}
   - component: {fileID: 1499235727}
   - component: {fileID: 1499235733}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "\u0414\u043E\u0441\u043A\u0430 (1)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5812,6 +5790,10 @@ PrefabInstance:
       value: "\u043E\u043F\u0438\u043B\u043A\u0438"
       objectReference: {fileID: 0}
     - target: {fileID: 3456384299625632557, guid: d3d9a4b06af9b0143a01710feccaf96d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3456384299625632557, guid: d3d9a4b06af9b0143a01710feccaf96d, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -5923,7 +5905,7 @@ GameObject:
   - component: {fileID: 1621161609}
   - component: {fileID: 1621161608}
   - component: {fileID: 1621161614}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "\u0414\u043E\u0441\u043A\u0430 (2)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7137,7 +7119,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1918277561}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Attachment (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7791,7 +7773,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2063621188}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Attachment (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7822,7 +7804,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2074503548}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Attachment (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9567,8 +9549,9 @@ GameObject:
   - component: {fileID: 7699329501522965905}
   - component: {fileID: 6300011499108194434}
   - component: {fileID: 443120142723970952}
-  - component: {fileID: 1189281453}
   - component: {fileID: 1189281457}
+  - component: {fileID: 7699329501522965907}
+  - component: {fileID: 7699329501522965906}
   m_Layer: 0
   m_Name: Circular saw blade
   m_TagString: Untagged
@@ -12026,6 +12009,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 543450652053587423}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7699329501522965906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760875724159475255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 597a68f5afcf5e34889f60c076fbadb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneNumber: 0
+  TimeDelay: 1
+--- !u!65 &7699329501522965907
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760875724159475255}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 80, y: 80, z: 12.83711}
+  m_Center: {x: 0.000015258789, y: 0, z: 0}
 --- !u!23 &7762067043794845733
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12617,7 +12635,7 @@ GameObject:
   - component: {fileID: 1129496809130527117}
   - component: {fileID: 29024476}
   - component: {fileID: 29024480}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}

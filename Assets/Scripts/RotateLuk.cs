@@ -10,6 +10,8 @@ public class RotateLuk : MonoBehaviour
     private Quaternion targetRot;
     private bool Rotating = false;
     private bool RotatingDef = false;
+
+    public bool DefIsOn = false;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -31,10 +33,10 @@ public class RotateLuk : MonoBehaviour
         }
 
         if(RotatingDef) {
-            defTrans.Rotate(0.0f, 6.0f * Time.deltaTime, 0);
-            if (defTrans.rotation.y <= -80.0f){
+            defTrans.Rotate(0.0f, -180.0f, 0);
+                DefIsOn = !DefIsOn;
                 RotatingDef = false;
-            }
+            
         }
     }
 

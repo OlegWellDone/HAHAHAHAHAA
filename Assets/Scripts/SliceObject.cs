@@ -23,7 +23,7 @@ public class SliceObject : MonoBehaviour
     void Update()
     {
         if (moveAttach){
-            AttachPoint.position = new Vector3(speedMovin * Time.deltaTime, firstPos.y, firstPos.z);
+            AttachPoint.position += new Vector3(speedMovin * Time.deltaTime, firstPos.y, firstPos.z);
             Debug.Log("Ты поэтому двигаешься!");
             if (AttachPoint.position.x <= -2.0f){
                 Slice(target);

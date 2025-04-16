@@ -31,6 +31,7 @@ private float ElapsedTime;
 
     public void SwitchSC(int scene){
         StartTimer = false;
+        SceneManager.UnloadSceneAsync(scene);
         SceneManager.LoadScene(scene);
     }
 }
